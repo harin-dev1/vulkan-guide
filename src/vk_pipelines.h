@@ -3,5 +3,6 @@
 
 namespace vkutil {
 
+    bool load_shader_module(char const* filePath, VkDevice device, VkShaderModule* outShaderModule);
 
 };
